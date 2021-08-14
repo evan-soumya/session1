@@ -5,7 +5,8 @@ const starsCtx = stars.getContext('2d');
 const slider = document.querySelector(".slider input");
 const output = document.querySelector("#speed");
 
-// global variables
+
+// global  variables
 let screen, starsElements, starsParams = { speed: 6, number: 800, extinction: 5 };
 
 // run stars
